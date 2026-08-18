@@ -1,3 +1,44 @@
+
+
+
+
 nav{
-    color: red;
+    height: 80px;
+    display: flex;
+}
+
+.nav__container{
+    width:100%;
+    max-width: 1200px;
+    padding: 0 24px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.logo{
+    width:52px;
+    display: flex;
+    align-items: center;
+    border-bottom-width: 0px;
+    font-weight: 900;
+    margin-left: 0px;
+    font-size: 1.5rem;
+
+}
+
+ul{
+    display:flex;
+}
+
+li{
+    list-style-type: none;
+}
+
+.nav__links{
+    margin-left: 100px;
+    text-decoration: none;
+    font-size: 20px;
+    padding:8px;
+
 }
