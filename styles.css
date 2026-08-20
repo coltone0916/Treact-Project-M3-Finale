@@ -1,30 +1,25 @@
-
-
-
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto+Flex:opsz,wght,XOPQ,XTRA,YOPQ,YTDE,YTFI,YTLC,YTUC@8..144,100..1000,96,468,79,-203,738,514,712&family=Roboto:ital,wdth,wght@0,75..100,100..900;1,75..100,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 nav{
-    height: 80px;
+    height: 60px;
     display: flex;
 }
 
 .nav__container{
-    width:100%;
-    max-width: 1200px;
-    padding: 0 24px;
-    display: flex;
-    justify-content: space-between;
-    margin: 0 auto;
+    align-items: center;
 }
 
-.logo{
-    width:52px;
-    display: flex;
-    align-items: center;
-    border-bottom-width: 0px;
-    font-weight: 900;
-    margin-left: 0px;
-    font-size: 1.5rem;
-
+.nav__logo{
+   display: flex;
+   align-items: center;
+   font-size: 24px;
+   font-weight: 900;
+   text-decoration: none;
 }
 
 ul{
@@ -40,5 +35,12 @@ li{
     text-decoration: none;
     font-size: 20px;
     padding:8px;
+    display: inline-flex;
 
+
+}
+
+.nav__link{
+    margin-left: 24px;
+    text-decoration: none;
 }
